@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap');
 @import "tailwindcss";
 
 :root {
@@ -15,7 +16,11 @@ a { color: inherit; }
 
 .site-shell { overflow-x: hidden; }
 .section-wrap { width: min(1120px, calc(100% - 32px)); margin: 0 auto; }
-.eyebrow { font: 700 0.72rem/1.2 Arial, sans-serif; letter-spacing: 0.14em; text-transform: uppercase; }
+.eyebrow { font: 700 0.72rem/1.2 'DM Sans', Arial, sans-serif; letter-spacing: 0.14em; text-transform: uppercase; }
 .display-title { font-size: clamp(3.8rem, 10vw, 8.5rem); line-height: 0.88; letter-spacing: -0.055em; }
 .section-title { font-size: clamp(2.3rem, 5vw, 4.6rem); line-height: 0.95; letter-spacing: -0.045em; }
-.body-copy { font: 400 1.05rem/1.6 Arial, sans-serif; }
+.body-copy { font: 400 1.05rem/1.6 'DM Sans', Arial, sans-serif; }
+.hero-description { font: 600 1.2rem/1.5 'DM Sans', Arial, sans-serif; }
+.header-links { font: 600 1rem/1.5 'DM Sans', Arial, sans-serif; }
+.font-sans { font-family: 'DM Sans', Arial, sans-serif; }
+.skills-list { font-family: 'IBM Plex Mono', monospace; }

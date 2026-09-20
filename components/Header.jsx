@@ -9,7 +9,7 @@ export function Header() {
     <header className="sticky top-0 z-50 bg-[#242323] text-[#f4f0e9]">
       <div className="section-wrap flex items-center justify-between py-6">
         <a href="/" className="text-lg font-bold">Linea Moltved Skræp</a>
-        <nav aria-label="Primary navigation" className="flex gap-5 font-sans text-sm">
+        <nav aria-label="Primary navigation" className="header-links flex gap-5">
           {links.map(([label, href]) => <a key={href} href={href}>{label}</a>)}
         </nav>
       </div>
