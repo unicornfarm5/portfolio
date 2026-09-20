@@ -1,0 +1,18 @@
+[
+  {
+    "id": "ux-strategy",
+    "title": "UX strategy for digital service",
+    "category": "User-centered · IT architecture",
+    "description": "A project focused on understanding users and turning research into a clearer digital service.",
+    "image": "/projects/ux-strategy.jpg",
+    "imageAlt": "Placeholder image for the UX strategy project"
+  },
+  {
+    "id": "school-project",
+    "title": "School project",
+    "category": "Concept development · UX",
+    "description": "A space for the next project, documented through process, decisions, and final solution.",
+    "image": "/projects/school-project.jpg",
+    "imageAlt": "Placeholder image for the school project"
+  }
+]
