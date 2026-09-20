@@ -8,21 +8,28 @@ import { HeroSection } from '../components/HeroSection.jsx'
 import { HowIWorkSection } from '../components/HowIWorkSection.jsx'
 import { InternshipSection } from '../components/InternshipSection.jsx'
 import { ProjectsSection } from '../components/ProjectsSection.jsx'
+import { ProjectsPage } from '../components/ProjectsPage.jsx'
 
 export default function App() {
+  const isProjectsPage = window.location.pathname === '/projects'
+
   return (
     <div className="site-shell">
       <Header />
-      <main>
-        <HeroSection />
-        <BannerQuote />
-        <About />
-        <Experience />
-        <ProjectsSection />
-        <HowIWorkSection />
-        <InternshipSection />
-        <ContactSection />
-      </main>
+      {isProjectsPage ? (
+        <main><ProjectsPage /></main>
+      ) : (
+        <main>
+          <HeroSection />
+          <BannerQuote />
+          <About />
+          <Experience />
+          <ProjectsSection />
+          <HowIWorkSection />
+          <InternshipSection />
+          <ContactSection />
+        </main>
+      )}
       <Footer />
     </div>
   )

@@ -1,18 +1,133 @@
 [
   {
-    "id": "ux-strategy",
-    "title": "UX strategy for digital service",
-    "category": "User-centered · IT architecture",
-    "description": "A project focused on understanding users and turning research into a clearer digital service.",
-    "image": "/projects/ux-strategy.jpg",
-    "imageAlt": "Placeholder image for the UX strategy project"
+    "id": "savetheearth",
+    "title": "Developing an app for learning: SaveTheEarth",
+    "description": "On second semester, my group and I developed a MVP for a learning app with a game ready to be integrated in the lesson plan on knowledge of climate change for 5th graders in collaboration with the company CDM.",
+    "images": [
+      "/projects/earth_game.png",
+      "/projects/image3.png",
+      "/projects/image4.png",
+      "/projects/image5.png",
+      "/projects/image6.png",
+      "/projects/image7.png"
+    ],
+    "imageCaptions": [
+      "Game page with CTA from the app",
+      "Student login was essential for the app",
+      "Style style for the app",
+      "High fidelity prototype: Game wireframes",
+      "Moodboard for the app with focus on the target audience and sustainability",
+      "Our final idea for the wireframes for the app, with the game and a scoreboard for school classes to compete"
+    ],
+    "keySkills": [
+      "Design process",
+      "Persona",
+      "UI testing"
+    ],
+    "sections": [
+      {
+        "heading": "Project description",
+        "text": "Focused on translating business needs, and integration with existing business website as an element in the user journey, while keeping the MVP focused on the 10-year-old target audience. This made the design process a good challenge, as we tested prototypes on kids with think-aloud tests. Our research showed we could make a design that was fun, engaging and with elements of competition. We combined the learning with a simple game, and developed a scoreboard page for school classes to compete."
+      },
+      {
+        "heading": "Stakeholder management",
+        "text": "I practiced my stakeholder management as we had meetings with the CEO of CDM, Erik Rosenkrantz, and finally presented our solution for him as well as representatives from Friluftsrådet and City of Copenhagen. These stakeholders had very different priorities, and it became a learningsful challenge to manage and prioritize."
+      }
+    ],
+    "link": "",
+    "githubRepo": ""
   },
   {
-    "id": "school-project",
-    "title": "School project",
-    "category": "Concept development · UX",
-    "description": "A space for the next project, documented through process, decisions, and final solution.",
-    "image": "/projects/school-project.jpg",
-    "imageAlt": "Placeholder image for the school project"
+    "id": "min-stroem",
+    "title": "Design and develop page for Min Strøm app",
+    "description": "Working with the head developer, owner and UX designer from the Min Strøm app, with over 500,000 downloads, my group redesigned and built a page for the app during our second semester.",
+    "images": [
+      "/projects/image1.png",
+      "/projects/image2.png"
+    ],
+    "imageCaptions": [
+      "Min Strøm app today, the finished design with elements from our prototypes",
+      "Min Strøm prototype wireframes, used as a guide for development"
+    ],
+    "keySkills": [
+      "App development",
+      "Understanding user journey",
+      "Project management"
+    ],
+    "sections": [
+      {
+        "heading": "The process",
+        "text": "Through conversations with the app team, user interviews and think-aloud tests facilitated by us, we improved the user journey. From the insights we collected, we made low-fidelity prototypes for the app team to evaluate. Through a few iterations, we developed our improved app in Kotlin Compose, the programming language for Android apps."
+      }
+    ],
+    "link": "https://www.minstroem.app/",
+    "githubRepo": ""
+  },
+  {
+    "id": "g-james-waste-reduction",
+    "title": "Designing to reduce waste in G James business process",
+    "description": "My group worked with business analytics tools such as SWOT, TOWS, SIPOC, GAP analysis and BPMN, as well as stakeholder management, to find solutions to reduce waste in the giant warehouses and improve the company's digital maturity.",
+    "images": [
+      "/projects/GJames.png",
+      "/projects/GJames_requirements.png",
+      "/projects/GJames_timeline.png"
+    ],
+    "imageCaptions": [
+      "G James via their website",
+      "G James solution requirements",
+      "Our timeline for digital maturity in the company factory"
+    ],
+    "keySkills": [
+      "Stakeholder management",
+      "Inclusive design",
+      "Design to business process"
+    ],
+    "sections": [
+      {
+        "heading": "The project",
+        "text": "In my third semester, I worked with the Australian company G James, a manufacturing business specialising in the production of aluminium windows and doors, building facades, glass and aluminium extrusions."
+      },
+      {
+        "heading": "Designing for a different context",
+        "text": "It was a fun challenge to design for a user group that was not English-speaking, but used many different languages, had limited reading skills and worked within a very different work culture from Denmark. We found that workplace norms such as not sharing opinions, not asking questions and a top-down approach with little employee involvement resulted in a slow feedback flow. Designing for users with low digital maturity was a very different and valuable learning experience."
+      }
+    ],
+    "link": "https://gjames.com/",
+    "githubRepo": ""
+  },
+  {
+    "id": "greenhouse-princess",
+    "title": "Greenhouse Princess",
+    "subtitle": "Personal project for fun",
+    "description": "Small site to keep track of your plants and their needs. Login to add plants and edit your own digital garden. Will soon be deployed for you to try!",
+    "images": [
+      "/projects/green1.png"
+    ],
+    "imageCaptions": [
+      "green1.png"
+    ],
+    "keySkills": [
+      "React",
+      "Vite",
+      "Express",
+      "Node",
+      "PostgreSQL",
+      "Supabase",
+      "JWT authentication"
+    ],
+    "techStack": [
+      "Frontend: React + Vite",
+      "Backend: Express + Node",
+      "Database: PostgreSQL via Supabase",
+      "Authentication: JWT-based login and signup"
+    ],
+    "sections": [
+      {
+        "heading": "The idea",
+        "text": "Greenhouse Princess is a vintage pixel art inspired website where the user can build a personal digital garden. Instead of listing plant information such as nickname, Latin name, care instructions and picture in a notes app, you can use Greenhouse Princess to keep it all together."
+      }
+    ],
+    "link": "",
+    "githubRepo": "https://github.com/unicornfarm5/greenhouse_princess"
   }
 ]
