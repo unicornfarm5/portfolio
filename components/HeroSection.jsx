@@ -5,7 +5,7 @@ export function HeroSection() {
         <p className="eyebrow mb-6">IT architecture student · Copenhagen</p>
         <h1 className="display-title max-w-5xl">Linea<br />Moltved<br />Skræp</h1>
       </div>
-      <p className="hero-description max-w-xs pb-3">IT architecture student with a passion for user-centered design.</p>
+      <p className="hero-description max-w-xs pb-3">IT architecture student with a passion for user-centered design</p>
     </section>
   )
 }
