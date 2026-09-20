@@ -28,8 +28,8 @@ export function About() {
         <div>
           <div className="pt-8">
             <h2 className="section-title mb-8">Education</h2>
-            <p className="eyebrow mb-3">Erhvervsakademi København (EK)</p>
-            <p className="body-copy max-w-2xl">I’m studying IT Architecture and I’m currently in my fifth semester, where I am taking an elective course in UX design and concept development, connected to the multimedia design track on school.</p>
+            <p className="education-institution mb-3">Erhvervsakademi København (EK)</p>
+            <p className="education-copy max-w-2xl">I’m studying IT Architecture and I’m currently in my fifth semester, where I am taking an elective course in UX design and concept development, connected to the multimedia design track on school.</p>
           </div>
 
           <div id="skills" className="mt-20 border-t border-[#f4f0e9]/40 pt-8">

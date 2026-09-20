@@ -20,7 +20,9 @@ a { color: inherit; }
 .display-title { font-size: clamp(3.8rem, 10vw, 8.5rem); line-height: 0.88; letter-spacing: -0.055em; }
 .section-title { font-size: clamp(2.3rem, 5vw, 4.6rem); line-height: 0.95; letter-spacing: -0.045em; }
 .body-copy { font: 400 1.05rem/1.6 'DM Sans', Arial, sans-serif; }
+.education-copy { font: 400 1.1rem/1.6 'DM Sans', Arial, sans-serif; }
+.education-institution { font: 600 1.1rem/1.5 'DM Sans', Arial, sans-serif; }
 .hero-description { font: 600 1.2rem/1.5 'DM Sans', Arial, sans-serif; }
 .header-links { font: 600 1rem/1.5 'DM Sans', Arial, sans-serif; }
 .font-sans { font-family: 'DM Sans', Arial, sans-serif; }
-.skills-list { font-family: 'IBM Plex Mono', monospace; }
+.skills-list { font: 600 1.1rem/1.5 'DM Sans', Arial, sans-serif; }
