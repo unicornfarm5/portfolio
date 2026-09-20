@@ -1,4 +1,4 @@
-const skills = ['HTML, JavaScript, CSS', 'React', 'Python', 'SQL and NoSQL', 'Android app development', 'Azure VM', 'Docker', 'Grafana', 'Figma', 'User testing', 'Eye tracking testing', 'Basic Adobe']
+const skills = ['HTML, JavaScript, CSS', 'React', 'Python', 'SQL and NoSQL', 'Android app development', 'Azure VM', 'Docker', 'Grafana', 'Figma', 'User testing', 'Eye tracking', 'Basic Adobe']
 
 export function SkillsSection() {
   return (

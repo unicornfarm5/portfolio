@@ -13,8 +13,8 @@ html { scroll-behavior: smooth; }
 body { margin: 0; min-width: 320px; }
 a { color: inherit; }
 
-.site-shell { overflow: hidden; }
-.section-wrap { width: min(1120px, calc(100% - 40px)); margin: 0 auto; }
+.site-shell { overflow-x: hidden; }
+.section-wrap { width: min(1120px, calc(100% - 32px)); margin: 0 auto; }
 .eyebrow { font: 700 0.72rem/1.2 Arial, sans-serif; letter-spacing: 0.14em; text-transform: uppercase; }
 .display-title { font-size: clamp(3.8rem, 10vw, 8.5rem); line-height: 0.88; letter-spacing: -0.055em; }
 .section-title { font-size: clamp(2.3rem, 5vw, 4.6rem); line-height: 0.95; letter-spacing: -0.045em; }
