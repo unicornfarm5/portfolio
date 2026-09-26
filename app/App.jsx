@@ -1,3 +1,4 @@
+import { useEffect, useState } from 'react'
 import { About } from '../components/About.jsx'
 import { BannerQuote } from '../components/BannerQuote.jsx'
 import { ContactSection } from '../components/ContactSection.jsx'
@@ -11,8 +12,16 @@ import { ProjectsSection } from '../components/ProjectsSection.jsx'
 import { ProjectsPage } from '../components/ProjectsPage.jsx'
 
 export default function App() {
+  const [locationHash, setLocationHash] = useState(() => window.location.hash)
+
+  useEffect(() => {
+    const handleHashChange = () => setLocationHash(window.location.hash)
+    window.addEventListener('hashchange', handleHashChange)
+    return () => window.removeEventListener('hashchange', handleHashChange)
+  }, [])
+
   const pathname = window.location.pathname.replace(/\/+$/, '') || '/'
-  const isProjectsPage = pathname === '/projects' || window.location.hash.startsWith('#/projects')
+  const isProjectsPage = pathname === '/projects' || locationHash.startsWith('#/projects')
 
   return (
     <div className="site-shell">
