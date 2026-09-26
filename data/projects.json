@@ -101,10 +101,16 @@
     "subtitle": "Personal project for fun",
     "description": "Small site to keep track of your plants and their needs. Login to add plants and edit your own digital garden. Will soon be deployed for you to try!",
     "images": [
-      "/projects/green1.png"
+      "/projects/green1.png",
+      "/projects/green3.png", 
+      "/projects/green4.png",
+      "/projects/green2.png"
     ],
     "imageCaptions": [
-      "green1.png"
+      "edit plant menu",
+      "Plant list page",
+      "Add new plant pop up",
+      "Login page"
     ],
     "keySkills": [
       "React",
