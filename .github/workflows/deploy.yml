@@ -32,7 +32,7 @@ jobs:
           port: 22
           username: ${{ secrets.SSH_USER }}
           key: ${{ secrets.SSH_PRIVATE_KEY }}
-          script: mkdir -p /lineamoltved.com
+          script: mkdir -p lineamoltved.com
 
       - name: Upload portfolio
         uses: appleboy/scp-action@v0.1.7
@@ -42,5 +42,5 @@ jobs:
           username: ${{ secrets.SSH_USER }}
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           source: dist/*
-          target: /lineamoltved.com
+          target: lineamoltved.com
           strip_components: 1
