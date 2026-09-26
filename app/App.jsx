@@ -11,7 +11,8 @@ import { ProjectsSection } from '../components/ProjectsSection.jsx'
 import { ProjectsPage } from '../components/ProjectsPage.jsx'
 
 export default function App() {
-  const isProjectsPage = window.location.pathname === '/projects'
+  const pathname = window.location.pathname.replace(/\/+$/, '') || '/'
+  const isProjectsPage = pathname === '/projects'
 
   return (
     <div className="site-shell">
