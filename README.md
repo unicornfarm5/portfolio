@@ -1,20 +1,26 @@
 # Linea Moltved Portfolio
+Live on [lineamoltved.com] 😇
+React and Tailwind CSS reconstruction of my first portfolio draft at [lineamoltved.wixsite.com/portfolio](https://lineamoltved.wixsite.com/portfolio).
 
-React and Tailwind CSS reconstruction of the Wix portfolio at [lineamoltved.wixsite.com/portfolio](https://lineamoltved.wixsite.com/portfolio).
+I'm a IT-architecture student with a passion for UX and testing
 
-## Structure
+### Tech stack
+- React
+- Tailwind CSS
+- Data is just in json for this project lol
+- Hosted with Simply, updates on push to main
+
+### Project structure
 
 - `app/` contains the application entry point and global styles.
 - `components/` contains one component per page section plus the reusable `ProjectCard`.
-- `data/projects.json` is the content source for the project grid.
-- `public/img/` is for general images.
-- `public/projects/` is for project images referenced by the JSON data.
+- `data/projects.json` is the content source.
+- `public/img/` general images.
+- `public/projects/`project images referenced by the JSON data.
 
-## Run locally
+### Run locally
 
 ```bash
 npm install
 npm run dev
 ```
-
-The initial project images are placeholders. Add matching files in `public/projects/` when the final visuals are available.
