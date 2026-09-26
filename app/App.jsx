@@ -12,7 +12,7 @@ import { ProjectsPage } from '../components/ProjectsPage.jsx'
 
 export default function App() {
   const pathname = window.location.pathname.replace(/\/+$/, '') || '/'
-  const isProjectsPage = pathname === '/projects'
+  const isProjectsPage = pathname === '/projects' || window.location.hash.startsWith('#/projects')
 
   return (
     <div className="site-shell">

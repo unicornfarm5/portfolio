@@ -1,6 +1,6 @@
 const links = [
   ['About', '/#about'],
-  ['Projects', '/projects'],
+  ['Projects', '/#/projects'],
   ['Contact', '/#contact'],
 ]
 
