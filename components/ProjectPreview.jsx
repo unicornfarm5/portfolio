@@ -3,7 +3,7 @@ export function ProjectPreview({ project }) {
 
   return (
     <article className="group">
-      <a href="/#/projects">
+      <a href={`/#/projects/${project.id}`}>
         <div className="mb-5 aspect-[4/3] overflow-hidden bg-[#d8d0c4]">
           <img src={previewImage} alt={project.title} className="h-full w-full object-cover transition duration-500 group-hover:scale-105" />
         </div>

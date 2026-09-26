@@ -1,7 +1,16 @@
+import { useEffect } from 'react'
 import projects from '../data/projects.json'
 import { ProjectCard } from './ProjectCard.jsx'
 
 export function ProjectsPage() {
+  const projectId = window.location.hash.match(/^#\/projects\/([^/?#]+)/)?.[1]
+
+  useEffect(() => {
+    if (!projectId) return
+
+    document.getElementById(projectId)?.scrollIntoView({ behavior: 'smooth', block: 'start' })
+  }, [projectId])
+
   return (
     <>
       <section className="section-wrap py-24">
