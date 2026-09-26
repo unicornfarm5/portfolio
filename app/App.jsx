@@ -8,6 +8,7 @@ import { Header } from '../components/Header.jsx'
 import { HeroSection } from '../components/HeroSection.jsx'
 import { HowIWorkSection } from '../components/HowIWorkSection.jsx'
 import { InternshipSection } from '../components/InternshipSection.jsx'
+import { Mascot } from '../components/Mascot.jsx'
 import { ProjectsSection } from '../components/ProjectsSection.jsx'
 import { ProjectsPage } from '../components/ProjectsPage.jsx'
 
@@ -26,6 +27,7 @@ export default function App() {
   return (
     <div className="site-shell">
       <Header />
+      <Mascot />
       {isProjectsPage ? (
         <main><ProjectsPage /></main>
       ) : (
