@@ -1,3 +1,8 @@
+const email = String.fromCharCode(
+  108, 105, 110, 101, 97, 46, 109, 111, 108, 116, 118, 101, 100,
+  64, 103, 109, 97, 105, 108, 46, 99, 111, 109,
+)
+
 export function ContactSection() {
   return (
     <section id="contact" className="bg-[#b9c5b0] py-16">
@@ -5,7 +10,7 @@ export function ContactSection() {
         <div><p className="eyebrow mb-5">Want to meet for coffee?</p><h2 className="section-title">Let&apos;s talk.</h2></div>
         <div className="body-copy self-end">
           <p>Copenhagen, Denmark</p>
-          <a href="mailto:linea.moltved@gmail.com" className="mt-4 inline-block underline">linea.moltved@gmail.com</a>
+          <a href={`mailto:${email}`} className="mt-4 inline-block underline">{email}</a>
         </div>
         <div className="flex items-end gap-6 self-end">
           <a
