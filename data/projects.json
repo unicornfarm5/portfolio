@@ -102,12 +102,16 @@
     "description": "Small site to keep track of your plants and their needs. Login to add plants and edit your own digital garden. Will soon be deployed for you to try!",
     "images": [
       "/projects/green1.png",
+      "/projects/green_forside.png",
+      "/projects/green_plantside.png",
       "/projects/green3.png", 
       "/projects/green4.png",
       "/projects/green2.png"
     ],
     "imageCaptions": [
       "edit plant menu",
+      "My profile on mobile",
+      "A plant page with all posts",
       "Plant list page",
       "Add new plant pop up",
       "Login page"
@@ -133,7 +137,7 @@
         "text": "Greenhouse Princess is a vintage pixel art inspired website where the user can build a personal digital garden. Instead of listing plant information such as nickname, Latin name, care instructions and picture in a notes app, you can use Greenhouse Princess to keep it all together."
       }
     ],
-    "link": "",
+    "link": "https://unicornfarm5.github.io/greenhouse_princess/",
     "githubRepo": "https://github.com/unicornfarm5/greenhouse_princess"
   }
 ]
