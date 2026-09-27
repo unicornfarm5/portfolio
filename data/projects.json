@@ -98,7 +98,7 @@
   {
     "id": "greenhouse-princess",
     "title": "Greenhouse Princess",
-    "subtitle": "Personal project for fun",
+    "subtitle": "Personal project for fun - you can try soon (when i migrate backend so it can be used upsi)",
     "description": "Small site to keep track of your plants and their needs. Login to add plants and edit your own digital garden. Will soon be deployed for you to try!",
     "images": [
       "/projects/green1.png",
