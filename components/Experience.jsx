@@ -11,7 +11,7 @@ export function Experience() {
 							Outside my studies I work with GUI+embedded testing and requirements in MagVenture, a medical company that makes a difference in the treatment of depression and other mental issues.
 						</p>
 						<p className="mt-6">
-							I work with SCUM in the software department. My main tasks are writing software test and testcases for the medical product from RISK CONTROL requirements, as weel as GUI and embedded testing.
+							I work with SCRUM in the software department. My main tasks are writing software test and testcases for the medical product from RISK CONTROL requirements, as weel as GUI and embedded testing.
 						</p>
 					</div>
 				</article>
