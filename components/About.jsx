@@ -9,7 +9,7 @@ const skills = [
   'Grafana',
   'Figma',
   'User testing',
-  'Eye tracking testing',
+  'Eye-tracking testing',
   'Basic Adobe',
 ]
 
@@ -29,7 +29,7 @@ export function About() {
           <div className="pt-8">
             <h2 className="section-title mb-8">Education</h2>
             <p className="education-institution mb-3">Erhvervsakademi København (EK)</p>
-            <p className="education-copy max-w-2xl">I’m studying IT Architecture and I’m currently in my fifth semester, where I am taking an elective course in UX design and concept development, connected to the multimedia design track on school.</p>
+            <p className="education-copy max-w-2xl">I’m studying IT Architecture and am currently in my fifth semester, where I’m taking an elective course in UX design and concept development connected to the Multimedia Design track at my school.</p>
           </div>
 
           <div id="skills" className="mt-20 border-t border-[#f4f0e9]/40 pt-8">

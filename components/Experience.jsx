@@ -8,10 +8,10 @@ export function Experience() {
 					<h3 className="mb-6 text-3xl">Student Job</h3>
 					<div className="body-copy">
 						<p>
-							Outside my studies I work with GUI+embedded testing and requirements in MagVenture, a medical company that makes a difference in the treatment of depression and other mental issues.
+							Outside my studies, I work with GUI and embedded testing and requirements at MagVenture, a medical company that makes a difference in the treatment of depression and other mental health issues.
 						</p>
 						<p className="mt-6">
-							I work with SCRUM in the software department. My main tasks are writing software test and testcases for the medical product from RISK CONTROL requirements, as weel as GUI and embedded testing.
+							I work with Scrum in the software department. My main tasks are writing software tests and test cases for the medical product based on risk-control requirements, as well as GUI and embedded testing.
 						</p>
 					</div>
 				</article>
@@ -21,10 +21,10 @@ export function Experience() {
 					<h3 className="mb-6 text-3xl">Volunteer Work</h3>
 					<div className="body-copy">
 						<p>
-							I am a teamleader of my volenteer group with around 20 volenteers. We facilitate a safe space for queer youth in Copenhagen every week.
+							I am the team leader of my volunteer group, which has around 20 volunteers. We facilitate a safe space for queer youth in Copenhagen every week.
 						</p>
 						<p className="mt-6">
-							In my volenteer work I enjoy the impact of our work, and I enjoy leading montly meetings and communicateing with our main organisation, LGBT+ Denmark
+							In my volunteer work, I enjoy seeing the impact of what we do. I also enjoy leading monthly meetings and communicating with our main organisation, LGBT+ Denmark.
 						</p>
 					</div>
 				</article>

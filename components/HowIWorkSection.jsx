@@ -1,6 +1,6 @@
 const principles = [
   ['01', 'I enjoy working data-driven and in teams to solve problems.'],
-  ['02', 'I am often described as detail oriented, with an overview of the whole picture.'],
+  ['02', 'I am often described as detail-oriented, with an overview of the whole picture.'],
   ['03', 'I like to work systematically and know what the next step is.'],
 ]
 
